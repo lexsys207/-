@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic');
+
+/*ПЕРЕНАЗНАЧЕНИЕ bootstrap СТИЛЕЙ*/
+.mr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*ОСНОВНОЕ*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.flex {
+    display: flex;
+}
+
+/*ШАПКА*/
+header {
+    background-color: #f6f2f2;
+}
+header nav {
+    height: 89px;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Open Sans Extrabold', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* letter-spacing: 5px; */
+}
+.intro {
+    padding-top:  109px;
+    padding-bottom: 109px;
+}
+.intro span {
+    margin-top: 38px;
+    font-size: 16px;
+    line-height: 28px;
+    /* letter-spacing: -0.2px; */
+    opacity: 0.7;
+}
+.intro button {
+    display: block;
+    padding: 20px 63px;
+    margin-top: 62px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff3f40;
+}
+.intro .video {
+    width: 551px;
+    height: 356px;
+    background-color: #c4c0b1;
+    text-align: right;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: 600;
+    color: #e0e0e0;
+    padding-top: 43px;
+    padding-right: 23px;
+    font-size: 14px;
+    padding-left: 23px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    margin-right: 18px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    background-color: #ff3f40;
+}
