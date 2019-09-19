@@ -13,6 +13,20 @@ body {
 .flex {
     display: flex;
 }
+h2 {
+    font-size: 42px;
+    opacity: 0.8;
+    font-family: 'Open Sans Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Open Sans Semibold', sans-serif;
+}
+.border_bottom {
+    border-bottom: 2px solid #ececec;
+}
 
 /*ШАПКА*/
 header {
@@ -47,6 +61,9 @@ header h1 {
     border: none;
     border-radius: 5px;
     color: #fff;
+    font-size: 18.14px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: 600;
     background-color: #ff3f40;
 }
 .intro .video {
@@ -70,4 +87,32 @@ header h1 {
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     background-color: #ff3f40;
+}
+.text {
+    font-size: 16px;
+    font-family: 'Open Sans Regular', sans-serif;
+    line-height: 28px;
+}
+.item .text {
+    opacity: 0.7;
+}
+.item h3 {
+    opacity: 0.7;
+    margin-top: 30px;
+}
+.section_1 {
+    padding-top: 114px;
+    padding-bottom: 110px;
+}
+.section_1 button {
+    display: block;
+    padding: 20px 63px;
+    margin-top: 62px;
+    border: 2px solid #ff3f40;
+    border-radius: 5px;
+    color: #ff3f40;
+    font-size: 18.14px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: 600;
+    background: none;
 }
