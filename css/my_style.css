@@ -227,6 +227,46 @@ header h1 {
     line-height: 0.5;
     transition: 2s;
 }
+.section_4 {
+    max-height: 511px;
+}
+.section_4 .section-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 140px 0;
+}
+.section_4 .section-content .form {
+    margin-top: 64px;
+}
+.section_4 .section-content .form .text {
+    padding: 32px 36px;
+    background: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+    width: 520px;
+    border-style: none;
+    margin-right: 22px;
+}
+.section_4 .section-content .form .button  {
+    padding: 32px 57px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ff3f40;
+    border-radius: 10px;
+    border-color: none;
+    font-weight: 600;
+}
+.section_4 .background-absolute {
+    background: #f5f0dd;
+    position: absolute;
+    width: 100%;
+    height: 511px;
+    left: 0;
+}
 .show span {
     display: block !important;
 }
