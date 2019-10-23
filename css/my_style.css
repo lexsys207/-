@@ -35,6 +35,9 @@ h4 {
     display: inline-block;
     border-bottom: 2px solid #ff3f40;
 }
+.no-padding {
+    padding: 0;
+}
 
 /*ШАПКА*/
 header {
@@ -266,6 +269,88 @@ header h1 {
     width: 100%;
     height: 511px;
     left: 0;
+}
+.section_5 {
+    padding: 106px 0;
+}
+.section_5 .text {
+    max-width: 720px;
+}
+.section_5 .form .text {
+    display: flex;
+    justify-content: space-between;
+}
+.section_5 .form .text input {
+    padding: 27px 52px;
+    border-radius: 10px;
+    background: #e5e5e5;
+    border-style: none;
+}
+.section_5 .form .text textarea {
+    padding: 27px 52px;
+    border-radius: 10px;
+    background: #e5e5e5;
+    border-style: none;
+    width: 729.05px;
+    height: 250px;
+    margin-top: 47px;
+}
+.section_5 .form .button input {
+    padding: 27px 296px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: #ff3f40;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 47px;
+}
+.section_5 .contact-info {
+    height: 518px;
+    
+}
+.section_5 .contact-info .background-absolute {
+    background: #212529;
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    left: 0;
+}
+.section_5 .section-content {
+    color: #e0e0e0;
+    position: relative;
+    padding-left:78px;
+    padding-top: 145px;
+}
+.section_5 .section-content p {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section_5 .section-content span {
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    width: 300px;
+}
+.footer {
+    background: #212529;
+    padding: 58px 0;
+}
+.footer .copyring {
+    color: #a3a3a3;
+    font-size: 16px;
+}
+.footer .social a img {
+    margin-right: 16px;
+}
+.footer .section-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .section-content .social {
+    text-align: right;
 }
 .show span {
     display: block !important;
